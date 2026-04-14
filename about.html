@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="About our team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
 
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Embedded CSS (requirement) -->
+    <style>
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .student-id {
+            font-weight: bold;
+            color: #8e44ad;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th {
+            background-color: #6c5ce7;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #dfe6e9;
+        }
+
+        figure {
+            border: 2px solid #555;
+            padding: 10px;
+            width: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation (same on all pages) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>About Our Team</h1>
+    </header>
+
+    <main>
+
+        <!-- Group Info -->
+        <section>
+            <h2>Group Details</h2>
+            <ul>
+                <li>Group Name: Tech Innovators
+                    <ul>
+                        <li>Class Time: Monday 10:30 AM</li>
+                        <li>Tutor: John Smith</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Member Contributions -->
+        <section>
+            <h2>Team Contributions</h2>
+            <dl>
+                <dt class="student-id">Lithumi (ID: 12345678)</dt>
+                <dd>Developed the Home page and designed overall layout.</dd>
+
+                <dt class="student-id">Krishaga (ID: 87654321)</dt>
+                <dd>Created Jobs page and structured job listings.</dd>
+
+                <dt class="student-id">Dewmi (ID: 11223344)</dt>
+                <dd>Designed Apply page and implemented form validation.</dd>
+
+                <dt class="student-id">Minul (ID: 44332211)</dt>
+                <dd>Developed About page and styled tables and images.</dd>
+            </dl>
+        </section>
+
+        <!-- Quotes -->
+        <section>
+            <h2>Our Quotes</h2>
+            <dl>
+                <dt>Lithumi</dt>
+                <dd>"සාර්ථකත්වය ඔබේ සිහිනවලින් ආරම්භ වේ" (Success begins with your dreams)</dd>
+
+                <dt>Krishaga</dt>
+                <dd>"El éxito requiere esfuerzo constante" (Success requires constant effort)</dd>
+
+                <dt>Dewmi</dt>
+                <dd>"Le succès appartient à ceux qui travaillent dur" (Success belongs to those who work hard)</dd>
+
+                <dt>Minul</dt>
+                <dd>"努力は必ず報われる" (Hard work always pays off)</dd>
+            </dl>
+        </section>
+
+        <!-- Group Photo -->
+        <section>
+            <h2>Group Photo</h2>
+            <figure>
+                <img src="images/group.jpg" alt="Group photo of team members" width="100%">
+                <figcaption>Our amazing team working together</figcaption>
+            </figure>
+        </section>
+
+        <!-- Fun Facts Table -->
+        <section>
+            <h2>Fun Facts</h2>
+            <table>
+                <caption>Team Fun Facts</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Dream Job</th>
+                    <th>Favourite Snack</th>
+                    <th>Hometown</th>
+                </tr>
+                <tr>
+                    <td>Lithumi</td>
+                    <td>Software Engineer</td>
+                    <td>Chocolate</td>
+                    <td>Colombo</td>
+                </tr>
+                <tr>
+                    <td>Krishaga</td>
+                    <td>Web Developer</td>
+                    <td>Chips</td>
+                    <td>Kandy</td>
+                </tr>
+                <tr>
+                    <td>Dewmi</td>
+                    <td>UI/UX Designer</td>
+                    <td>Cookies</td>
+                    <td>Galle</td>
+                </tr>
+                <tr>
+                    <td>Minul</td>
+                    <td>Data Analyst</td>
+                    <td>Pizza</td>
+                    <td>Matara</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Acknowledgement of Country -->
+        <section>
+            <h2>Acknowledgement of Country</h2>
+            <p>
+                We acknowledge the Traditional Owners of the land on which we work and study, 
+                and pay our respects to Elders past, present, and emerging. We recognise their 
+                continuing connection to land, waters, and community.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tech Innovators | Email: info@techinnovators.com</p>
+    </footer>
+
+</body>
+</html>
