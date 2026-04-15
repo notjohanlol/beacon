@@ -39,12 +39,7 @@ nav a:hover {
     color: grey; 
 }
 
-/* ==========================
-   ABOUT PAGE ONLY STYLES
-   Unique class names used so
-   styles do not affect other pages
-   ========================== */
-
+/*About page */
 .about-page {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
