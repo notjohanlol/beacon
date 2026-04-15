@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <section><!--Logo with navigation-->
+    <header class="top-bar">
+    <img src="images/alt_beaconlogo.png" alt="Company Logo" width="100">
+    <div class="Title">
+    <h1>Beacon</h1>
+    <p><em>Your future just got brighter.</em></p>
+    </div>
+
+    <nav>
+    <hr>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    <hr>
+    </nav>
+    </header>
+    </section>
+    <main>
     <h1>Job Openings</h1>
     <p>Apply for our following jop openings:</p>
     <section><!--First Job-->
-        <hr>
-        <h3>Cyber-Security Specialist(Reference: ABCDE)</h3>
+        <h3 class="job">Cyber-Security Specialist</h3>
+        <p><strong>Reference:</strong> SPE02</p>
         <p>We are seeking a highly skilled and motivated Cyber Security Specialist to join our team. In this role, you will be responsible for protecting our organization’s systems, networks, and data from cyber threats.</p>
         <p><strong>Key Responsibilities:</strong></p>
         <ul>
@@ -19,12 +41,56 @@
             <li>Provide security awareness training to staff</li>
         </ul>
         <p><strong>Required Qualifications and Skills:</strong></p>
-        <ul>
-            <li>Bachelor’s degree in Cyber Security, Information Technology, or Computer Science</li>
-            <li>Familiarity with security frameworks</li>
-            <li>Experience with security tools such as SIEM systems</li>
-        </ul>
+        <h4>Essential Requirements</h4>
+            <ol>
+                <li>Bachelor’s degree in Cyber Security or related field</li>
+                <li>Knowledge of security frameworks</li>
+                <li>Experience with SIEM tools</li>
+            </ol>
+        <h4>Preferable Requirements</h4>
+            <ul>
+                <li>Industry certifications (e.g., CISSP, CEH)</li>
+                <li>Experience in cloud security</li>
+            </ul>
         <p><strong>Salary:</strong> 87 000$/per year</p>
     </section>
+     <section><!--Second Job-->
+            <h3 class="job">Front-End Web Developer</h3>
+            <p><strong>Reference:</strong> DEV01</p>
+            <p>
+                Design and develop user-friendly web interfaces for educational platforms.
+            </p>
+
+            <p><strong>Salary:</strong> $75,000 per year</p>
+            <p><strong>Reports to:</strong> Lead Developer</p>
+
+            <h4>Key Responsibilities</h4>
+            <ul>
+                <li>Build responsive web interfaces</li>
+                <li>Collaborate with designers and backend developers</li>
+                <li>Optimize applications for performance</li>
+            </ul>
+
+            <h4>Essential Requirements</h4>
+            <ol>
+                <li>Proficiency in HTML, JavaScript, and modern frameworks</li>
+                <li>Understanding of UI/UX principles</li>
+                <li>Version control experience (e.g., Git)</li>
+            </ol>
+
+            <h4>Preferable Requirements</h4>
+            <ul>
+                <li>Experience with accessibility standards</li>
+                <li>Familiarity with REST APIs</li>
+            </ul>
+        </section>
+        </main>
+        <aside>
+            <h3>Inclusive Employment</h3>
+            <p>
+                We strongly encourage applications from Aboriginal and Torres Strait Islander peoples
+                and are committed to a diverse and inclusive workplace.
+            </p>
+        </aside>
 </body>
 </html>
