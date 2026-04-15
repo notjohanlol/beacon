@@ -39,3 +39,246 @@ nav a:hover {
     color: grey; 
 }
 
+/* ==========================
+   ABOUT PAGE ONLY STYLES
+   Unique class names used so
+   styles do not affect other pages
+   ========================== */
+
+.about-page {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    color: #1f2937;
+}
+
+.about-page__header {
+    background: linear-gradient(to right, #eaf2ff, #f4f0ff);
+    border-bottom: 4px solid #6c5ce7;
+    padding: 1.5rem 1rem;
+}
+
+.about-page__branding {
+    max-width: 1100px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-page__logo {
+    border-radius: 12px;
+}
+
+.about-page__title-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page__title {
+    margin: 0;
+    color: #243b53;
+    font-size: 2rem;
+}
+
+.about-page__tagline {
+    margin: 0.35rem 0 0;
+    color: #52606d;
+}
+
+.about-page__nav {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-page__menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.about-page__menu li {
+    margin: 0;
+}
+
+.about-page__menu a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4a69bd;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.about-page__menu a:hover,
+.about-page__menu a:focus {
+    background-color: #3557a5;
+    transform: translateY(-2px);
+}
+
+.about-page__main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.about-page__section {
+    background-color: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-page__section h2 {
+    margin-top: 0;
+    color: #1e3a5f;
+    border-left: 6px solid #6c5ce7;
+    padding-left: 0.75rem;
+}
+
+.about-page__group-list {
+    padding-left: 1.4rem;
+}
+
+.about-page__definition-list dt {
+    margin-top: 1rem;
+}
+
+.about-page__member-name {
+    font-weight: bold;
+    color: #2d3436;
+    font-size: 1.05rem;
+}
+
+.about-page__student-id {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    background-color: #f3e8ff;
+    border: 1px solid #c77dff;
+    color: #7b2cbf;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.about-page__definition-list dd {
+    margin: 0.4rem 0 0.8rem 1.4rem;
+}
+
+.about-page__quote {
+    font-style: italic;
+    color: #243b53;
+}
+
+.about-page__translation {
+    color: #52606d;
+    font-size: 0.96rem;
+}
+
+.about-page__figure {
+    max-width: 430px;
+    margin: 1rem auto;
+    border: 3px solid #5f27cd;
+    border-radius: 14px;
+    padding: 0.9rem;
+    background-color: #f7f4ff;
+    text-align: center;
+}
+
+.about-page__group-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.about-page__figcaption {
+    margin-top: 0.7rem;
+    color: #3d3d3d;
+    font-size: 0.95rem;
+}
+
+.about-page__image-note {
+    text-align: center;
+    color: #52606d;
+    font-size: 0.95rem;
+}
+
+.about-page__table-wrap {
+    overflow-x: auto;
+}
+
+.about-page__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.about-page__table caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    color: #1e3a5f;
+}
+
+.about-page__table th,
+.about-page__table td {
+    border: 1px solid #cbd5e1;
+    padding: 0.85rem;
+    text-align: left;
+}
+
+.about-page__table th {
+    background-color: #6c5ce7;
+    color: #ffffff;
+}
+
+.about-page__table tbody tr:nth-child(even) {
+    background-color: #f8f7ff;
+}
+
+.about-page__table tbody tr:hover {
+    background-color: #dfe6ff;
+}
+
+.about-page__acknowledgement {
+    background-color: #f0fffb;
+    border-left: 6px solid #00897b;
+}
+
+.about-page__footer {
+    text-align: center;
+    background-color: #1e3a5f;
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.about-page a:focus {
+    outline: 3px solid #f39c12;
+    outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-page__branding {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-page__menu {
+        justify-content: center;
+    }
+
+    .about-page__title {
+        font-size: 1.7rem;
+    }
+}
