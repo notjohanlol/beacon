@@ -2,188 +2,167 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="About our team">
+    <meta name="description" content="About the Beacon group, member contributions, quotes, and team fun facts">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Embedded CSS (requirement) -->
-    <style>
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-
-        .student-id {
-            font-weight: bold;
-            color: #8e44ad;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 80%;
-            margin: auto;
-        }
-
-        table, th, td {
-            border: 1px solid #333;
-        }
-
-        th {
-            background-color: #6c5ce7;
-            color: white;
-        }
-
-        tr:hover {
-            background-color: #dfe6e9;
-        }
-
-        figure {
-            border: 2px solid #555;
-            padding: 10px;
-            width: 300px;
-            margin: auto;
-        }
-    </style>
+    <title>About Us | Beacon</title>
+    <link rel="stylesheet" href="about.css">
 </head>
+<body class="about-page">
 
-<body>
+    <header class="about-page__header">
+        <div class="about-page__branding">
+            <img src="images/alt_beaconlogo.png" alt="Beacon logo" class="about-page__logo" width="100" height="100">
+            <div class="about-page__title-area">
+                <h1 class="about-page__title">About Our Team</h1>
+                <p class="about-page__tagline"><em>Your future just got brighter.</em></p>
+            </div>
+        </div>
 
-    <header>
-    <header class="top-bar">
-    <img src="images/alt_beaconlogo.png" alt="Company Logo" width="100">
-    <div class="Title">
-    <h1>Beacon</h1>
-    <p><em>Your future just got brighter.</em></p>
-    </div>
-        
-    <nav>
-    <hr>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="jobs.html">Jobs</a></li>
-        <li><a href="apply.html">Apply</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-    </hr>
-    </nav>
-
+        <nav class="about-page__nav" aria-label="Main navigation">
+            <ul class="about-page__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
+    <main class="about-page__main">
 
-        <!-- Group Info -->
-        <section>
-            <h2>Group Details</h2>
-            <ul>
-                <li>Group Name: Beacons
+        <section class="about-page__section" aria-labelledby="group-details-heading">
+            <h2 id="group-details-heading">Group Details</h2>
+            <ul class="about-page__group-list">
+                <li>
+                    <strong>Group Name:</strong> Beacons
                     <ul>
-                        <li>Class Time: Thursday 10.30 am</li>
-                        <li>Tutor: Nick </li>
+                        <li><strong>Class Day/Time:</strong> Thursday 10:30 AM</li>
+                        <li><strong>Tutor:</strong> Nick</li>
                     </ul>
                 </li>
             </ul>
         </section>
 
-        <!-- Member Contributions -->
-        <section>
-            <h2>Team Contributions</h2>
-            <dl>
-                <dt class="student-id">Amir Mindelis (ID: 106507769)</dt>
-                <dd>Developed the Home page and designed overall layout.</dd>
+        <section class="about-page__section" aria-labelledby="contributions-heading">
+            <h2 id="contributions-heading">Member Contributions and Quotes</h2>
 
-                <dt class="student-id">Johan Vineeth (ID: 106505297)</dt>
-                <dd>Created Jobs page and structured job listings.</dd>
+            <dl class="about-page__definition-list">
+                <dt class="about-page__member-name">
+                    Amir Mindelis
+                    <span class="about-page__student-id">106507769</span>
+                </dt>
+                <dd>Developed the Home page and helped shape the overall layout and visual consistency of the website.</dd>
+                <dd>
+                    <span lang="uk" class="about-page__quote">“Потужно”</span><br>
+                    <span class="about-page__translation">English: “Powerfully” / “Strongly.”</span>
+                </dd>
 
-                <dt class="student-id">Tharuki Keyara Weerasekara (ID: 106198257)</dt>
-                <dd>Designed Apply page and implemented form validation.</dd>
+                <dt class="about-page__member-name">
+                    Johan Vineeth
+                    <span class="about-page__student-id">106505297</span>
+                </dt>
+                <dd>Created the Jobs page and structured the job listings in a clear and user-friendly format.</dd>
+                <dd>
+                    <span lang="ml" class="about-page__quote">“നീ നീ ആയിരിക്കൂ. മറ്റെല്ലാവരെയും ഇതിനകം തന്നെ പിടികൂടിയിട്ടുണ്ട്.”</span><br>
+                    <span class="about-page__translation">English: “Be yourself. Everyone else is already taken.”</span>
+                </dd>
 
-                <dt class="student-id">Lithumi Chanthuli Samarasinghe (ID: 106192550)</dt>
-                <dd>Developed About page and styled tables and images.</dd>
+                <dt class="about-page__member-name">
+                    Tharuki Keyara Weerasekara
+                    <span class="about-page__student-id">106198257</span>
+                </dt>
+                <dd>Designed the Apply page and implemented form validation to improve usability and accuracy.</dd>
+                <dd>
+                    <span lang="si" class="about-page__quote">“ශාන්තිය තියෙන තැන තමයි සැබෑ සතුට.”</span><br>
+                    <span class="about-page__translation">English: “Where there is peace, there is true happiness.”</span>
+                </dd>
+
+                <dt class="about-page__member-name">
+                    Lithumi Chanthuli Samarasinghe
+                    <span class="about-page__student-id">106192550</span>
+                </dt>
+                <dd>Developed the About page and styled the tables, image presentation, and content layout.</dd>
+                <dd>
+                    <span lang="si" class="about-page__quote">“ඔයා මෙච්චර දුරක් ආවේ හැමදාම මෙහෙම ඉන්න හිතාගෙන නෙවෙයි.”</span><br>
+                    <span class="about-page__translation">English: “You didn’t come this far just to feel like this forever.”</span>
+                </dd>
             </dl>
         </section>
 
-        <!-- Quotes -->
-        <section>
-            <h2>Our Quotes</h2>
-            <dl>
-                <dt>Amir Mindelis</dt>
-                <dd>“Потужно” English: “Powerfully” / “Tough.”</dd>
-
-                <dt>Johan Vineeth</dt>
-                <dd>“നീ നീ ആയിരിക്കൂ. മറ്റെല്ലാവരെയും ഇതിനകം തന്നെ പിടികൂടിയിട്ടുണ്ട്.” English: “Be yourself. Everyone else is already taken.”</dd>
-
-                <dt>Tharuki Keyara Weerasekara</dt>
-                <dd>“ශාන්තිය තියෙන තැන තමයි සැබෑ සතුට.” English: “Where there is peace, there is true happiness.”</dd>
-
-                <dt>Lithumi Chanthuli Samarasinghe</dt>
-                <dd>“ඔයා මෙච්චර දුරක් ආවේ හැමදාම මෙහෙම ඉන්න හිතාගෙන නෙවෙයි.” English: “You didn’t come this far just to feel like this forever.”</dd>
-            </dl>
-        </section>
-
-        <!-- Group Photo -->
-        <section>
-            <h2>Group Photo</h2>
-            <figure>
-                <img src="images/group.jpg" alt="Group photo of team members" width="100%">
-                <figcaption>Our amazing team working together</figcaption>
+        <section class="about-page__section" aria-labelledby="photo-heading">
+            <h2 id="photo-heading">Group Photo</h2>
+            <figure class="about-page__figure">
+                <img src="images/group.jpg"
+                     alt="Group photo of the Beacon team members together"
+                     class="about-page__group-image">
+                <figcaption class="about-page__figcaption">
+                    The Beacon team working together on the design and development of our website project.
+                </figcaption>
             </figure>
+            <p class="about-page__image-note">The group image should be kept under 300KB to meet the assessment requirement.</p>
         </section>
 
-        <!-- Fun Facts Table -->
-        <section>
-            <h2>Fun Facts</h2>
-            <table>
-                <caption>Team Fun Facts</caption>
-                <tr>
-                    <th>Name</th>
-                    <th>Dream Job</th>
-                    <th>Favourite Snack</th>
-                    <th>Hometown</th>
-                </tr>
-                <tr>
-                    <td>Amir</td>
-                    <td>CEO</td>
-                    <td>Grapes</td>
-                    <td>Odessa, Ukraine</td>
-                </tr>
-                <tr>
-                    <td>Johan</td>
-                    <td>Cyber Security Analyst</td>
-                    <td>Popcorn</td>
-                    <td>Geelong, Australia</td>
-                </tr>
-                <tr>
-                    <td>Tharuki</td>
-                    <td>Data Scientist</td>
-                    <td>Bueno Chocolates</td>
-                    <td>Kalutara, Sri Lanka</td>
-                </tr>
-                <tr>
-                    <td>Lithumi</td>
-                    <td>Data Scientist</td>
-                    <td>Pizza</td>
-                    <td>Homagama, sri Lanka</td>
-                </tr>
-            </table>
+        <section class="about-page__section" aria-labelledby="fun-facts-heading">
+            <h2 id="fun-facts-heading">Fun Facts Table</h2>
+            <div class="about-page__table-wrap">
+                <table class="about-page__table">
+                    <caption>Fun facts about each Beacon team member</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Dream Job</th>
+                            <th scope="col">Coding Snack</th>
+                            <th scope="col">Hometown</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Amir</td>
+                            <td>CEO</td>
+                            <td>Grapes</td>
+                            <td>Odessa, Ukraine</td>
+                        </tr>
+                        <tr>
+                            <td>Johan</td>
+                            <td>Cyber Security Analyst</td>
+                            <td>Popcorn</td>
+                            <td>Geelong, Australia</td>
+                        </tr>
+                        <tr>
+                            <td>Tharuki</td>
+                            <td>Data Scientist</td>
+                            <td>Bueno Chocolates</td>
+                            <td>Kalutara, Sri Lanka</td>
+                        </tr>
+                        <tr>
+                            <td>Lithumi</td>
+                            <td>Data Scientist</td>
+                            <td>Pizza</td>
+                            <td>Homagama, Sri Lanka</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
-        <!-- Acknowledgement of Country -->
-        <section>
-            <h2>Acknowledgement of Country</h2>
+        <section class="about-page__section about-page__acknowledgement" aria-labelledby="acknowledgement-heading">
+            <h2 id="acknowledgement-heading">Acknowledgement of Country</h2>
             <p>
-                We acknowledge the Traditional Owners of the land on which we work and study, 
-                and pay our respects to Elders past, present, and emerging. We recognise their 
-                continuing connection to land, waters, and community.
+                We respectfully acknowledge the Traditional Owners of the lands on which we live, work, and study,
+                and pay our respects to Elders past, present, and emerging. We recognise the continuing connection
+                of Aboriginal and Torres Strait Islander peoples to Country, waters, culture, and community.
+            </p>
+            <p>
+                We have included this acknowledgement as a meaningful statement of respect and inclusion. As an
+                Australian-focused website project, we believe it is important to recognise First Nations peoples
+                in a thoughtful and authentic way, rather than adding content without purpose or explanation.
             </p>
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 Tech Innovators | Email: info@techinnovators.com</p>
+    <footer class="about-page__footer">
+        <p>&copy; 2026 Beacon | Email: info@beacon.com</p>
     </footer>
 
 </body>
