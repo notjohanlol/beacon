@@ -10,48 +10,56 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="main-page">
 
-<section><!--Logo and navigation-->
-    <header class="top-bar">
-    <img src="images/alt_beaconlogo.png" alt="Company Logo" width="100">
-    <div class="Title">
-    <h1>Beacon</h1>
-    <p><em>Your future just got brighter.</em></p>
+<header class="main-page__header">
+
+    <img src="images/alt_beaconlogo.png" alt="Company Logo" class="main-page__logo">
+
+    <div class="main-page__title-wrapper">
+        <h1 class="main-page__title">Beacon</h1>
+        <p class="main-page__subtitle"><em>Your future just got brighter.</em></p>
     </div>
 
-    <nav>
-    <hr>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="jobs.html">Jobs</a></li>
-        <li><a href="apply.html">Apply</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-    <hr>
+    <nav class="main-page__nav">
+        <ul class="main-page__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
     </nav>
-    </header>
-    </section>
 
-<main>
+</header>
 
-    <section>
+<main class="main-page__main">
+
+    <section class="main-page__section">
         <h2>Who are we?</h2>
         <p>
-            We are a leading company that aim to connect future employees to employers quickly and efficently.
+            We are a leading company that aims to connect future employees to employers quickly and efficiently.
         </p>
     </section>
-    
-    <form action="/search" method="GET">
-      <input type="search" name="q" placeholder="Search..." aria-label="Search through site content">
-      <button type="submit">Search</button>
-    </form>
 
+    <section class="main-page__section">
+        <h2>Search</h2>
 
+        <form class="main-page__form" action="/search" method="GET">
+            <input 
+                class="main-page__search-input"
+                type="search" 
+                name="q" 
+                placeholder="Search..." 
+                aria-label="Search through site content"
+            >
+            <button class="main-page__button" type="submit">Search</button>
+        </form>
+    </section>
 
-    <section>
+    <section class="main-page__section">
         <h2>Our Overview</h2>
-        <table border="1">
+
+        <table class="main-page__table">
             <tr>
                 <th colspan="2">Details</th>
             </tr>
@@ -77,20 +85,22 @@
         </table>
     </section>
 
-    <section>
+    <section class="main-page__section">
         <h2>Acknowledgement of Country</h2>
         <p>
-            We acknowledge the Traditional Owners of the land on which we operate, 
-            and pay our respects to Elders past, present, and emerging. 
+            We acknowledge the Traditional Owners of the land on which we operate,
+            and pay our respects to Elders past, present, and emerging.
             We recognise their continuing connection to land, waters, and community.
         </p>
     </section>
 
 </main>
 
-<footer>
-    <p>Contact us: 
-        <a href="mailto:contact-us@beacon.com" style="color:blue;">
+<footer class="main-page__footer">
+
+    <p>
+        Contact us:
+        <a href="mailto:contact-us@beacon.com">
             contact-us@beacon.com
         </a>
     </p>
