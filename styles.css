@@ -1,4 +1,4 @@
-body{ /*font */
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,9 +40,7 @@ nav a:hover {
 }
 
 /*Main page*/
-/* MAIN PAGE ROOT */
-.main-page {
-    margin: 0;
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fb;
     color: #1f2937;
@@ -190,6 +188,7 @@ nav a:hover {
 .main-page__footer a:hover {
     text-decoration: underline;
 }
+
 
 
 
