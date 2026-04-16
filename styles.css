@@ -40,14 +40,16 @@ nav a:hover {
 }
 
 /*Main page*/
-body {
-    font-family: Arial, Helvetica, sans-serif;
+/* MAIN PAGE ROOT */
+.main-page {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fb;
     color: #1f2937;
 }
 
-.top-bar {
+/* HEADER */
+.main-page__header {
     background: linear-gradient(to right, #4a69bd, #6c5ce7);
     color: white;
     padding: 20px 0;
@@ -55,50 +57,56 @@ body {
     text-align: center;
 }
 
-.top-bar img {
+.main-page__logo {
     position: absolute;
     left: 20px;
     top: 10px;
     height: 80px;
 }
 
-.Title h1 {
+.main-page__title {
     margin: 0;
     font-size: 2.2rem;
 }
 
-.Title p {
+.main-page__subtitle {
     margin: 5px 0 0;
     font-size: 1rem;
 }
 
-nav ul {
+/* NAV */
+.main-page__nav {
+    margin-top: 15px;
+}
+
+.main-page__menu {
     list-style: none;
     padding: 0;
-    margin-top: 15px;
+    margin: 0;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-nav a {
+.main-page__menu a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     transition: 0.3s;
 }
 
-nav a:hover {
+.main-page__menu a:hover {
     color: #dcd6ff;
 }
 
-main {
+/* MAIN CONTENT */
+.main-page__main {
     max-width: 900px;
     margin: 30px auto;
     padding: 0 15px;
 }
 
-section {
+.main-page__section {
     background: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -106,26 +114,32 @@ section {
     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
 }
 
-h2 {
+.main-page__section h2 {
     margin-top: 0;
     border-left: 5px solid #6c5ce7;
     padding-left: 10px;
 }
 
-form {
+/* JOB TEXT */
+.main-page__job {
+    color: rgb(66, 120, 255);
+}
+
+/* SEARCH FORM */
+.main-page__form {
     display: flex;
     gap: 10px;
     margin: 20px 0;
 }
 
-input[type="search"] {
+.main-page__search-input {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 
-button {
+.main-page__button {
     padding: 10px 15px;
     border: none;
     background-color: #4a69bd;
@@ -134,46 +148,48 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.main-page__button:hover {
     background-color: #3557a5;
 }
 
-table {
+/* TABLE */
+.main-page__table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
-table th {
+.main-page__table th {
     background-color: #6c5ce7;
     color: white;
 }
 
-table th, table td {
+.main-page__table th,
+.main-page__table td {
     padding: 10px;
     border: 1px solid #ccc;
 }
 
-table tr:nth-child(even) {
+.main-page__table tr:nth-child(even) {
     background-color: #f9f9ff;
 }
 
-footer {
+/* FOOTER */
+.main-page__footer {
     text-align: center;
     background-color: #1e3a5f;
     color: white;
     padding: 15px;
 }
 
-footer a {
+.main-page__footer a {
     color: #a5b4fc;
     text-decoration: none;
 }
 
-footer a:hover {
+.main-page__footer a:hover {
     text-decoration: underline;
 }
-
 
 
 
