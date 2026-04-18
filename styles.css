@@ -408,5 +408,13 @@ section h2 {
     background-color: #1d4ed8;
 }
 
+.form-container label,
+.form-container legend {
+    color: #2563eb;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
 
 
