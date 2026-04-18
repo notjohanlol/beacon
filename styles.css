@@ -394,17 +394,18 @@ section h2 {
     }
 }
 .apply-submit {
-    background-color: #5b7bd5;
+    background-color: #2563eb;
     color: white;
     border: none;
     border-radius: 12px;
     padding: 12px 24px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
 }
 
 .apply-submit:hover {
-    background-color: #4a69bd;
+    background-color: #1d4ed8;
 }
 
 
