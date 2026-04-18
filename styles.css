@@ -1,43 +1,5 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.job{
-    color: rgb(66, 120, 255);
-}
-
-.top-bar img {
-    position: absolute; 
-    left: 0px; 
-    top: 10px; 
-    height: 100px; 
-    width: 180px;
-}
-
-.Title {
-    text-align: center; 
-}
-
-nav ul {
-    list-style: none; 
-    margin: 10px 0 0 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; 
-    gap: 40px;
-
-}
-
-nav a {
-    text-decoration: none; 
-    color: blue; 
-    font-size: 14px;
-}
 
 
-nav a:hover {
-    color: grey; 
-}
 
 /*Main page*/
 body {
@@ -55,11 +17,11 @@ body {
     text-align: center;
 }
 
-.main-page__logo {
+.logo {
     position: absolute;
-    left: 20px;
-    top: 10px;
-    height: 80px;
+    left: 5px;
+    top: 5px;
+    height: 130px;
 }
 
 .main-page__title {
@@ -98,13 +60,13 @@ body {
 }
 
 /* MAIN CONTENT */
-.main-page__main {
+main {
     max-width: 900px;
     margin: 30px auto;
     padding: 0 15px;
 }
 
-.main-page__section {
+section {
     background: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -112,7 +74,7 @@ body {
     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
 }
 
-.main-page__section h2 {
+section h2 {
     margin-top: 0;
     border-left: 5px solid #6c5ce7;
     padding-left: 10px;
