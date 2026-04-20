@@ -3,12 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fb;
     color: #1f2937;
-    background-image: linear-gradient(to bottom, #dbeafe, #f4f7fb 500px);
-    background-repeat: no-repeat;
     margin: 0;
 }
 
 /* HEADER */
+.main-page {
+    background-image: linear-gradient(to bottom, #dbeafe, #f4f7fb 500px);
+    background-repeat: no-repeat;
+}
+
 .main-page__header {
     background: linear-gradient(to right, #4a69bd, #6c5ce7);
     color: white;
