@@ -196,11 +196,6 @@ section h2 {
     border-radius: 12px;
 }
 
-.about-page__title-area {
-    display: flex;
-    flex-direction: column;
-}
-
 .about-page__title {
     margin: 0;
     color: #243b53;
@@ -392,14 +387,8 @@ section h2 {
     outline-offset: 2px;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-    .main-page__menu {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .main-page__header {
+
+.main-page__header {
         padding-top: 60px; 
     }
     
