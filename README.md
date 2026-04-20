@@ -16,13 +16,6 @@ The Team
 * Tharuki Keyara Weerasekara (106198257) - Apply page, HTML5 form validation, and testing.
 * Lithumi Chanthuli Samarasinghe (106192550) - About page, graphics management, and data tables.
 
-Technical Implementation
-* Semantic HTML5: Validated use of header, main, section, and aside tags for accessible document flow.
-* CSS Architecture: Implementation of External, Embedded, and Inline CSS as per rubric requirements.
-* Responsive Design: Media queries at 600px ensuring the site remains usable on mobile devices.
-* Data Validation: Form inputs in apply.html use pattern attributes (Regex) for postcodes, phone numbers, and job references.
-* Accessibility: High-contrast color palette, meaningful alt text, and inclusion of the Acknowledgement of Country.
-
 File Structure
 * index.html - Group overview and industry summary.
 * jobs.html - List of vacancies with floated sidebar requirements.
