@@ -7,6 +7,7 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/icon_logo.png">
 
     <!-- Embedded CSS  -->
     <style>
@@ -42,12 +43,12 @@
     </style>
 </head>
 
-<body style="font-family: Arial, sans-serif;"> <!-- Inline CSS -->
+<body style="font-family: Arial, sans-serif;">
 
 <header class="main-page__header">
 
     <img src="images/real_logo.png" alt="Company Logo" class="logo">
-    <link rel="icon" type="images" href="images/icon_logo.png">
+
     <div class="main-page__title-wrapper">
         <h1 class="main-page__title">BEACON</h1>
         <p class="main-page__subtitle"><em>Your future just got brighter.</em></p>
@@ -63,13 +64,13 @@
     </nav>
 
 </header>
+
 <main>
     <section class="form-container">
         <h2>Apply Now</h2>
 
         <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
 
-            <!-- Job Reference -->
             <div class="form-row">
                 <label for="jobref">Job Reference Number</label>
                 <input type="text" id="jobref" name="jobref"
@@ -78,7 +79,6 @@
                        required>
             </div>
 
-            <!-- Name -->
             <div class="form-row">
                 <label for="firstname">First Name</label>
                 <input type="text" id="firstname" name="firstname"
@@ -95,7 +95,6 @@
                        required>
             </div>
 
-            <!-- DOB -->
             <div class="form-row">
                 <label for="dob">Date of Birth (dd/mm/yyyy)</label>
                 <input type="text" id="dob" name="dob"
@@ -104,33 +103,25 @@
                        required>
             </div>
 
-            <!-- Gender -->
-          <fieldset class="gender-group">
-    <legend>Gender</legend>
+            <fieldset class="gender-group">
+                <legend>Gender</legend>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+            </fieldset>
 
-    <div class="radio-group">
-        <label><input type="radio" name="gender" value="male" required> Male</label>
-        <label><input type="radio" name="gender" value="female"> Female</label>
-        <label><input type="radio" name="gender" value="other"> Other</label>
-    </div>
-</fieldset>
-
-            <!-- Address -->
             <div class="form-row">
                 <label for="street">Street Address</label>
-                <input type="text" id="street" name="street"
-                       maxlength="40"
-                       required>
+                <input type="text" id="street" name="street" maxlength="40" required>
             </div>
 
             <div class="form-row">
                 <label for="suburb">Suburb/Town</label>
-                <input type="text" id="suburb" name="suburb"
-                       maxlength="40"
-                       required>
+                <input type="text" id="suburb" name="suburb" maxlength="40" required>
             </div>
 
-            <!-- State -->
             <div class="form-row">
                 <label for="state">State</label>
                 <select id="state" name="state" required>
@@ -154,7 +145,6 @@
                        required>
             </div>
 
-            <!-- Contact -->
             <div class="form-row">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
@@ -168,38 +158,35 @@
                        required>
             </div>
 
-            <!-- Skills -->
-           <fieldset class="skills-group">
-  <legend>Skills</legend>
+            <fieldset class="skills-group">
+                <legend>Skills</legend>
 
-  <label class="skill-item">
-    <input type="checkbox" name="skills[]" value="HTML">
-    <span>HTML</span>
-  </label>
+                <label class="skill-item">
+                    <input type="checkbox" name="skills[]" value="HTML">
+                    <span>HTML</span>
+                </label>
 
-  <label class="skill-item">
-    <input type="checkbox" name="skills[]" value="CSS">
-    <span>CSS</span>
-  </label>
+                <label class="skill-item">
+                    <input type="checkbox" name="skills[]" value="CSS">
+                    <span>CSS</span>
+                </label>
 
-  <label class="skill-item">
-    <input type="checkbox" name="skills[]" value="Communication">
-    <span>Communication</span>
-  </label>
+                <label class="skill-item">
+                    <input type="checkbox" name="skills[]" value="Communication">
+                    <span>Communication</span>
+                </label>
 
-  <label class="skill-item">
-    <input type="checkbox" name="skills[]" value="Teamwork">
-    <span>Teamwork</span>
-  </label>
-</fieldset>
+                <label class="skill-item">
+                    <input type="checkbox" name="skills[]" value="Teamwork">
+                    <span>Teamwork</span>
+                </label>
+            </fieldset>
 
-            <!-- Other Skills -->
             <div class="form-row">
                 <label for="otherskills">Other Skills</label>
                 <textarea id="otherskills" name="otherskills" rows="4"></textarea>
             </div>
 
-            <!-- Submit -->
             <div class="form-row">
                 <input type="submit" value="Apply" class="apply-submit">
             </div>
@@ -207,8 +194,8 @@
         </form>
     </section>
 </main>
-    
-    <section class="acknowledgement">
+
+<section class="acknowledgement">
     <h2>Acknowledgement of Country</h2>
     <p>
         Beacon acknowledges the Traditional Owners of the lands on which we live, learn, and work,
@@ -221,10 +208,9 @@
     </p>
 </section>
 
-    <footer>
-    <p>&copy; Beacon </p>
+<footer>
+    <p>&copy; Beacon</p>
 </footer>
-
 
 </body>
 </html>
