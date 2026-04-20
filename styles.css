@@ -395,7 +395,22 @@ section h2 {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    .main-page__menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .main-page__header {
+        padding-top: 60px; 
+    }
+    
+    .logo {
+        height: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
     .about-page__branding {
         flex-direction: column;
         text-align: center;
